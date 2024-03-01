@@ -1,4 +1,8 @@
 /* Start Variables */
+:root {
+    --main-color: #6155A0;
+    --second-color: #8C89B0;
+}
 
 /* End Variables */
 
@@ -115,6 +119,7 @@ body {
     min-width: 200px;
     top: calc(100% + 15px);
     display: none;
+    z-index: 1;
 }
 
 @media (min-width: 1200px) {
@@ -172,6 +177,7 @@ body {
 
 .header .links ul li a:hover {
     padding-left: 25px;
+    color: var(--second-color);
 }
 
 @media (min-width: 1200px) {
@@ -193,3 +199,48 @@ body {
 }
 
 /* End Header */
+
+/* Start Landing */
+.landing {
+    background-image: url(../images/landing.png);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+}
+
+.landing .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+}
+
+.landing .intro-text h1 {
+    margin: 0;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .landing .intro-text h1 {
+        color: var(--second-color);
+    }
+}
+
+.landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: black;
+}
+
+@media (min-width: 1200px) {
+    .landing .intro-text p {
+        color: var(--second-color);
+    }
+}
+
+/* End Landing */
