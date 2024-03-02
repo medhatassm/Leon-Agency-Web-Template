@@ -91,7 +91,7 @@ I make this website home page to practice HTML & CSS after 40 day of learning th
 5. Using Scrolling smooth to make website move between links smoothly.
 
 
->[tip]
+>[!tip]
 >This Website design is learning project from ElZero Web School Website,
 >And this one of four template that i make to learn front-end basics. (1/4).
 
